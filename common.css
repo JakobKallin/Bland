@@ -29,7 +29,7 @@ body {
 }
 
 header {
-	font-family: Aracne;
+	font-family: Aracne, sans-serif;
 	font-weight: normal;
 	line-height: 0.8;
 	margin-top: 2rem;
@@ -79,4 +79,8 @@ article > * {
 	padding-left: 2%;
 	padding-right: 2%;
 	max-width: 36rem;
+}
+
+td {
+	vertical-align: top;
 }
