@@ -17,42 +17,29 @@
 			width: 100%;
 		}
 
-.featured {
-	line-height: 1.25;
+.featured h2 {
+	max-width: 50rem;
+	padding-left: 0;
+	padding-right: 0;
 }
-
-.featured > * {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	padding-left: 2%;
-	padding-right: 2%;
-	max-width: 36rem;
-}
-
-	.featured h2 {
-		max-width: 50rem;
-		padding-left: 0;
-		padding-right: 0;
+	
+	.featured h2 img {
+		width: 100%;
 	}
-		
-		.featured h2 img {
-			width: 100%;
-		}
 
+.featured h3 {
+	font-family: Aracne;
+	font-size: 5em;
+}
+
+.featured h3:after {
+	content: ":";
+}
+	
 	.bio {
 		text-align: left;
 	}
 	
-	.featured h3 {
-		font-family: Aracne;
-		font-size: 5em;
-	}
-	
-	.featured h3:after {
-		content: ":";
-	}
 	
 	.video {
 	}
