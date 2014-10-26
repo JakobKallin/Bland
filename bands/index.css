@@ -1,12 +1,15 @@
-.bands li {
-	list-style-type: none;
+.bands ul {
 	max-width: 50rem;
-	padding-left: 0;
-	padding-right: 0;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
 }
-	
-	.bands li img {
-		width: 100%;
+
+	.bands li {
+		list-style-type: none;
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 	}
+		
+		.bands li img {
+			width: 100%;
+		}
