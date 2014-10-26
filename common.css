@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Aracne";
+	src: url("fonts/aracne-light.ttf"), url("fonts/aracne-light.eot");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: inherit;
+	font-weight: normal;
+	font-style: normal;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+body {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1;
+}
+
+header {
+	font-family: Aracne;
+	font-weight: normal;
+	line-height: 0.8;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+	
+	header a:hover {
+		border-bottom: 1px solid black;
+	}
+
+h1 .primary, h1 .secondary {
+	display: block;
+}
+
+h1 .primary {
+	font-size: 10em;
+}
+
+h1 .secondary {
+	font-size: 4em;
+}
+
+nav {
+	font-size: 4em;
+}
+
+	nav li {
+		display: inline-block;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
