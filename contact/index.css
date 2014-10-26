@@ -1,15 +1,11 @@
-h2 {
+h2, thead th {
 	font-size: 4em;
+	font-family: Aracne, sans-serif;
 }
 
 table {
 	text-align: left;
 }
-
-	thead th {
-		font-size: 4em;
-		font-family: Aracne, sans-serif;
-	}
 	
 	td + td, th + th {
 		padding-left: 4rem;
