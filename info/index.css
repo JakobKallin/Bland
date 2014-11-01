@@ -1,5 +1,13 @@
 .info {
 	font-size: 4em;
-	line-height: 1;
 	font-family: Aracne, sans-serif;
+}
+
+.info p {
+	line-height: 1;
+    padding-bottom: 3em;
+    background-image: url("/images/cable.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 3em;
 }
