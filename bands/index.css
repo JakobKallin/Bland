@@ -40,6 +40,10 @@
 		text-align: left;
 	}
 	
+	.bio p {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 	
 	.video {
 	}

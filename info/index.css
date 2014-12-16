@@ -4,6 +4,7 @@
 }
 
 .info p {
+	max-width: 40em;
 	line-height: 1;
     padding-bottom: 3em;
     background-image: url("/images/cable.png");
